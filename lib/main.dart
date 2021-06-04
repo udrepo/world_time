@@ -9,9 +9,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/home',
       routes: {
-       // '/' : (context) => LoadingScreen(),
+        '/' : (context) => LoadingScreen(),
         '/home' : (context) => HomeScreen(),
         '/location' : (context) => LocationScreen()
       },
